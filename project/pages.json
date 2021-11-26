@@ -1,0 +1,168 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/enter/enter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+
+            }
+            
+        }
+        ,{
+            "path" : "pages/homePage/homePage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/hot/hot",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "热门MV",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle": "black"
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#F2F2F0",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/searchDetail/searchDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/mineDetail/mineDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "更多",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mvDetail/mvDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "navigationBarTextStyle": "white",
+                "navigationBarBackgroundColor": "#333333",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/menuId/menuId",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/songDetail/songDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "navigationBarTextStyle": "white",
+                "navigationBarBackgroundColor": "#333333",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"app-plus":{
+					"titleView":false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/videoDetail/videoDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "navigationBarTextStyle": "white",
+                "navigationBarBackgroundColor": "#333333",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		// "navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath":"pages/hot/hot",
+				"text":"热门"
+			},
+			{
+				"pagePath":"pages/homePage/homePage",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"text":"我的"
+			}
+		]
+	}
+}

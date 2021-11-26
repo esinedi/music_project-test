@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-tabs-swiper": "/uview-ui/components/u-tabs-swiper/u-tabs-swiper"
+  }
+}

@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+#searchDetail {
+  width: 100%;
+  height: 100%;
+  background-color: #F2F2F0;
+}
+#searchDetail .searchDetailTop {
+  width: 100%;
+  background-color: white;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #F2F2F2;
+}
+#searchDetail .searchDetailTop .searchDetailTopImg {
+  height: 20px;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+#searchDetail .searchDetailMain {
+  background-color: #F2F2F0;
+}
+#searchDetail .searchDetailMain .index0Top {
+  background-color: white;
+  margin: 15px 10px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+}
+#searchDetail .searchDetailMain .index0Top .index0TopSinger {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 30px;
+}
+#searchDetail .searchDetailMain .index0Top .index0TopSinger .index0TopSingerImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+#searchDetail .searchDetailMain .index0Top .index0TopSinger .index0TopSingerP {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#searchDetail .searchDetailMain .index0Top .index0TopSinger .index0TopSingerP .index0TopSingerP1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#searchDetail .searchDetailMain .index0Top .index0TopSinger .index0TopSingerP .index0TopSingerP2 {
+  font-size: 13px;
+  color: gray;
+}
+#searchDetail .searchDetailMain .index0Bottom {
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 15px 10px;
+}
+#searchDetail .searchDetailMain .index0Bottom .index0BottomTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 8px;
+}
+#searchDetail .searchDetailMain .index0Bottom .index0BottomSing {
+  padding: 0px 5px;
+}
+#searchDetail .searchDetailMain .index0Bottom .index0BottomSing .index0BottomSingItem {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #F2F2F0;
+}
+#searchDetail .searchDetailMain .index0Bottom .index0BottomSing .index0BottomSingItem .index0BottomSingItemP .index0BottomSingItemP1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+#searchDetail .searchDetailMain .index0Bottom .index0BottomSing .index0BottomSingItem .index0BottomSingItemP .index0BottomSingItemP2 {
+  font-size: 13px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+}
+#searchDetail .searchDetailMain .index0Else {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
+#searchDetail .searchDetailMain .index1 {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+#searchDetail .searchDetailMain .index1 .menuIdMainMain {
+  display: flex;
+  flex-direction: column;
+}
+#searchDetail .searchDetailMain .index1 .menuIdMainMain .menuIdMainMainItem {
+  width: 100%;
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: row;
+}
+#searchDetail .searchDetailMain .index1 .menuIdMainMain .menuIdMainMainItem .menuIdMainMainItemLeft {
+  width: 80%;
+}
+#searchDetail .searchDetailMain .index1 .menuIdMainMain .menuIdMainMainItem .menuIdMainMainItemLeft .menuIdMainMainItemName {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#searchDetail .searchDetailMain .index1 .menuIdMainMain .menuIdMainMainItem .menuIdMainMainItemLeft .menuIdMainMainItemArters {
+  font-size: 12px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+}
+#searchDetail .searchDetailMain .index1 .menuIdMainMain .menuIdMainMainItem .menuIdMainMainItemLeft .menuIdMainMainItemArters .menuIdMainMainItemArter:after {
+  content: "&";
+}
+#searchDetail .searchDetailMain .index1 .menuIdMainMain .menuIdMainMainItem .menuIdMainMainItemLeft .menuIdMainMainItemArters .menuIdMainMainItemArter:last-child:after {
+  content: "";
+}
+#searchDetail .searchDetailMain .index1 .menuIdMainMain .menuIdMainMainItem .menuIdMainMainItemRight {
+  margin-left: 20px;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#searchDetail .searchDetailMain .index2 .index0TopSinger {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 30px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#searchDetail .searchDetailMain .index2 .index0TopSinger .index0TopSingerOne {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#searchDetail .searchDetailMain .index2 .index0TopSinger .index0TopSingerOne .index0TopSingerImg {
+  width: 60px;
+  border-radius: 100%;
+}
+#searchDetail .searchDetailMain .index2 .index0TopSinger .index0TopSingerP {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#searchDetail .searchDetailMain .index2 .index0TopSinger .index0TopSingerP .index0TopSingerP1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#searchDetail .searchDetailMain .index2 .index0TopSinger .index0TopSingerP .index0TopSingerP2 {
+  font-size: 13px;
+  color: gray;
+}
+#searchDetail .searchDetailMain .index3 {
+  width: 100%;
+}
+#searchDetail .searchDetailMain .index3 .hotMainCard {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: white;
+}
+#searchDetail .searchDetailMain .index3 .hotMainCard .hotMainCardP {
+  box-sizing: border-box;
+  height: 40px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: flex-start;
+  line-height: 40px;
+}
+#searchDetail .searchDetailMain .index3 .hotMainCard .hotMainCardP .hotMainCardP1 {
+  color: red;
+  font-size: 10px;
+}
+#searchDetail .searchDetailMain .index3 .hotMainCard .hotMainCardP .hotMainCardP2 {
+  font-size: 10px;
+}
+#searchDetail .searchDetailMain .index3 .hotMainCard .hotMainCardImg {
+  position: relative;
+}
+#searchDetail .searchDetailMain .index3 .hotMainCard .hotMainCardImg .hotMainCardImgPlay {
+  width: 50px;
+  opacity: 0.7;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
